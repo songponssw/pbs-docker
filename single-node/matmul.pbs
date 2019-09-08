@@ -1,0 +1,5 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=1
+#PBS -e /home/pbsuser/logs/
+#PBS -o /home/pbsuser/output/
+python3 /home/pbsuser/matmul.py
